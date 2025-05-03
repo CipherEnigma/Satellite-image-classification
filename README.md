@@ -1,6 +1,6 @@
 # Satellite-image-classification
 This project focuses on classifying satellite images into different categories using a deep Convolutional Neural Network (CNN). The model is trained on a dataset comprising images from four classes: **Cloudy**, **Desert**, **Green Area**, and **Water**.
-## 📂 Dataset
+##  Dataset
 
 The dataset is sourced from Kaggle:  
 🔗 [Satellite Image Classification Dataset](https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification)
@@ -33,3 +33,21 @@ The core of this project is a Convolutional Neural Network (CNN) built using Ten
    mkdir -p ~/.kaggle
    cp kaggle.json ~/.kaggle/
    chmod 600 ~/.kaggle/kaggle.json
+
+## Dependencies
+keras
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+tensorflow
+
+## Evaluation Matrix
+The notebook includes:
+
+Training and validation accuracy/loss graphs
+
+Confusion matrix for model predictions
+
+Sample predictions with image visualizations
